@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244B49CE21B6510C008AC4A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B49CD21B6510C008AC4A8 /* AppDelegate.m */; };
+		244B49D121B6510C008AC4A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B49D021B6510C008AC4A8 /* ViewController.m */; };
+		244B49D421B6510C008AC4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244B49D221B6510C008AC4A8 /* Main.storyboard */; };
+		244B49D621B6510E008AC4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244B49D521B6510E008AC4A8 /* Assets.xcassets */; };
+		244B49D921B6510E008AC4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244B49D721B6510E008AC4A8 /* LaunchScreen.storyboard */; };
+		244B49DC21B6510E008AC4A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B49DB21B6510E008AC4A8 /* main.m */; };
+		244B49E621B6510E008AC4A8 /* LXPianoMusicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B49E521B6510E008AC4A8 /* LXPianoMusicDemoTests.m */; };
+		244B49F121B6510E008AC4A8 /* LXPianoMusicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B49F021B6510E008AC4A8 /* LXPianoMusicDemoUITests.m */; };
+		244B4A1821B651AA008AC4A8 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B49FF21B651AA008AC4A8 /* 7.mp3 */; };
+		244B4A1921B651AA008AC4A8 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0021B651AA008AC4A8 /* 6.mp3 */; };
+		244B4A1A21B651AA008AC4A8 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0121B651AA008AC4A8 /* 4.mp3 */; };
+		244B4A1B21B651AA008AC4A8 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0221B651AA008AC4A8 /* 5.mp3 */; };
+		244B4A1C21B651AA008AC4A8 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0321B651AA008AC4A8 /* 1.mp3 */; };
+		244B4A1D21B651AA008AC4A8 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0421B651AA008AC4A8 /* 2.mp3 */; };
+		244B4A1E21B651AA008AC4A8 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0521B651AA008AC4A8 /* 3.mp3 */; };
+		244B4A1F21B651AA008AC4A8 /* 22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0621B651AA008AC4A8 /* 22.mp3 */; };
+		244B4A2021B651AA008AC4A8 /* 23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0721B651AA008AC4A8 /* 23.mp3 */; };
+		244B4A2121B651AA008AC4A8 /* 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0821B651AA008AC4A8 /* 21.mp3 */; };
+		244B4A2221B651AA008AC4A8 /* 20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0921B651AA008AC4A8 /* 20.mp3 */; };
+		244B4A2321B651AA008AC4A8 /* 24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0A21B651AA008AC4A8 /* 24.mp3 */; };
+		244B4A2421B651AA008AC4A8 /* 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0B21B651AA008AC4A8 /* 18.mp3 */; };
+		244B4A2521B651AA008AC4A8 /* 19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0C21B651AA008AC4A8 /* 19.mp3 */; };
+		244B4A2621B651AA008AC4A8 /* 25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0D21B651AA008AC4A8 /* 25.mp3 */; };
+		244B4A2721B651AA008AC4A8 /* 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0E21B651AA008AC4A8 /* 17.mp3 */; };
+		244B4A2821B651AA008AC4A8 /* 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A0F21B651AA008AC4A8 /* 16.mp3 */; };
+		244B4A2921B651AA008AC4A8 /* 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1021B651AA008AC4A8 /* 14.mp3 */; };
+		244B4A2A21B651AA008AC4A8 /* 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1121B651AA008AC4A8 /* 15.mp3 */; };
+		244B4A2B21B651AA008AC4A8 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1221B651AA008AC4A8 /* 11.mp3 */; };
+		244B4A2C21B651AA008AC4A8 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1321B651AA008AC4A8 /* 10.mp3 */; };
+		244B4A2D21B651AA008AC4A8 /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1421B651AA008AC4A8 /* 12.mp3 */; };
+		244B4A2E21B651AA008AC4A8 /* 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1521B651AA008AC4A8 /* 13.mp3 */; };
+		244B4A2F21B651AA008AC4A8 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1621B651AA008AC4A8 /* 8.mp3 */; };
+		244B4A3021B651AA008AC4A8 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 244B4A1721B651AA008AC4A8 /* 9.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244B49E221B6510E008AC4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244B49C121B6510B008AC4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244B49C821B6510B008AC4A8;
+			remoteInfo = LXPianoMusicDemo;
+		};
+		244B49ED21B6510E008AC4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244B49C121B6510B008AC4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244B49C821B6510B008AC4A8;
+			remoteInfo = LXPianoMusicDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244B49C921B6510B008AC4A8 /* LXPianoMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXPianoMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244B49CC21B6510C008AC4A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		244B49CD21B6510C008AC4A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		244B49CF21B6510C008AC4A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		244B49D021B6510C008AC4A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		244B49D321B6510C008AC4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244B49D521B6510E008AC4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244B49D821B6510E008AC4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244B49DA21B6510E008AC4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244B49DB21B6510E008AC4A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		244B49E121B6510E008AC4A8 /* LXPianoMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXPianoMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244B49E521B6510E008AC4A8 /* LXPianoMusicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPianoMusicDemoTests.m; sourceTree = "<group>"; };
+		244B49E721B6510E008AC4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244B49EC21B6510E008AC4A8 /* LXPianoMusicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXPianoMusicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244B49F021B6510E008AC4A8 /* LXPianoMusicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPianoMusicDemoUITests.m; sourceTree = "<group>"; };
+		244B49F221B6510E008AC4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244B49FF21B651AA008AC4A8 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		244B4A0021B651AA008AC4A8 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		244B4A0121B651AA008AC4A8 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		244B4A0221B651AA008AC4A8 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		244B4A0321B651AA008AC4A8 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		244B4A0421B651AA008AC4A8 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		244B4A0521B651AA008AC4A8 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		244B4A0621B651AA008AC4A8 /* 22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 22.mp3; sourceTree = "<group>"; };
+		244B4A0721B651AA008AC4A8 /* 23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 23.mp3; sourceTree = "<group>"; };
+		244B4A0821B651AA008AC4A8 /* 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 21.mp3; sourceTree = "<group>"; };
+		244B4A0921B651AA008AC4A8 /* 20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20.mp3; sourceTree = "<group>"; };
+		244B4A0A21B651AA008AC4A8 /* 24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 24.mp3; sourceTree = "<group>"; };
+		244B4A0B21B651AA008AC4A8 /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
+		244B4A0C21B651AA008AC4A8 /* 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 19.mp3; sourceTree = "<group>"; };
+		244B4A0D21B651AA008AC4A8 /* 25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 25.mp3; sourceTree = "<group>"; };
+		244B4A0E21B651AA008AC4A8 /* 17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 17.mp3; sourceTree = "<group>"; };
+		244B4A0F21B651AA008AC4A8 /* 16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16.mp3; sourceTree = "<group>"; };
+		244B4A1021B651AA008AC4A8 /* 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14.mp3; sourceTree = "<group>"; };
+		244B4A1121B651AA008AC4A8 /* 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15.mp3; sourceTree = "<group>"; };
+		244B4A1221B651AA008AC4A8 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+		244B4A1321B651AA008AC4A8 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		244B4A1421B651AA008AC4A8 /* 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12.mp3; sourceTree = "<group>"; };
+		244B4A1521B651AA008AC4A8 /* 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 13.mp3; sourceTree = "<group>"; };
+		244B4A1621B651AA008AC4A8 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		244B4A1721B651AA008AC4A8 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244B49C621B6510B008AC4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244B49DE21B6510E008AC4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244B49E921B6510E008AC4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244B49C021B6510B008AC4A8 = {
+			isa = PBXGroup;
+			children = (
+				244B49CB21B6510B008AC4A8 /* LXPianoMusicDemo */,
+				244B49E421B6510E008AC4A8 /* LXPianoMusicDemoTests */,
+				244B49EF21B6510E008AC4A8 /* LXPianoMusicDemoUITests */,
+				244B49CA21B6510B008AC4A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244B49CA21B6510B008AC4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244B49C921B6510B008AC4A8 /* LXPianoMusicDemo.app */,
+				244B49E121B6510E008AC4A8 /* LXPianoMusicDemoTests.xctest */,
+				244B49EC21B6510E008AC4A8 /* LXPianoMusicDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244B49CB21B6510B008AC4A8 /* LXPianoMusicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				244B49FE21B651AA008AC4A8 /* Resource */,
+				244B49CC21B6510C008AC4A8 /* AppDelegate.h */,
+				244B49CD21B6510C008AC4A8 /* AppDelegate.m */,
+				244B49CF21B6510C008AC4A8 /* ViewController.h */,
+				244B49D021B6510C008AC4A8 /* ViewController.m */,
+				244B49D221B6510C008AC4A8 /* Main.storyboard */,
+				244B49D521B6510E008AC4A8 /* Assets.xcassets */,
+				244B49D721B6510E008AC4A8 /* LaunchScreen.storyboard */,
+				244B49DA21B6510E008AC4A8 /* Info.plist */,
+				244B49DB21B6510E008AC4A8 /* main.m */,
+			);
+			path = LXPianoMusicDemo;
+			sourceTree = "<group>";
+		};
+		244B49E421B6510E008AC4A8 /* LXPianoMusicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				244B49E521B6510E008AC4A8 /* LXPianoMusicDemoTests.m */,
+				244B49E721B6510E008AC4A8 /* Info.plist */,
+			);
+			path = LXPianoMusicDemoTests;
+			sourceTree = "<group>";
+		};
+		244B49EF21B6510E008AC4A8 /* LXPianoMusicDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				244B49F021B6510E008AC4A8 /* LXPianoMusicDemoUITests.m */,
+				244B49F221B6510E008AC4A8 /* Info.plist */,
+			);
+			path = LXPianoMusicDemoUITests;
+			sourceTree = "<group>";
+		};
+		244B49FE21B651AA008AC4A8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				244B4A0321B651AA008AC4A8 /* 1.mp3 */,
+				244B4A0421B651AA008AC4A8 /* 2.mp3 */,
+				244B4A0521B651AA008AC4A8 /* 3.mp3 */,
+				244B4A0121B651AA008AC4A8 /* 4.mp3 */,
+				244B4A0221B651AA008AC4A8 /* 5.mp3 */,
+				244B4A0021B651AA008AC4A8 /* 6.mp3 */,
+				244B49FF21B651AA008AC4A8 /* 7.mp3 */,
+				244B4A1621B651AA008AC4A8 /* 8.mp3 */,
+				244B4A1721B651AA008AC4A8 /* 9.mp3 */,
+				244B4A1321B651AA008AC4A8 /* 10.mp3 */,
+				244B4A1221B651AA008AC4A8 /* 11.mp3 */,
+				244B4A1421B651AA008AC4A8 /* 12.mp3 */,
+				244B4A1521B651AA008AC4A8 /* 13.mp3 */,
+				244B4A1021B651AA008AC4A8 /* 14.mp3 */,
+				244B4A1121B651AA008AC4A8 /* 15.mp3 */,
+				244B4A0F21B651AA008AC4A8 /* 16.mp3 */,
+				244B4A0E21B651AA008AC4A8 /* 17.mp3 */,
+				244B4A0B21B651AA008AC4A8 /* 18.mp3 */,
+				244B4A0C21B651AA008AC4A8 /* 19.mp3 */,
+				244B4A0921B651AA008AC4A8 /* 20.mp3 */,
+				244B4A0821B651AA008AC4A8 /* 21.mp3 */,
+				244B4A0621B651AA008AC4A8 /* 22.mp3 */,
+				244B4A0721B651AA008AC4A8 /* 23.mp3 */,
+				244B4A0A21B651AA008AC4A8 /* 24.mp3 */,
+				244B4A0D21B651AA008AC4A8 /* 25.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244B49C821B6510B008AC4A8 /* LXPianoMusicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244B49F521B6510E008AC4A8 /* Build configuration list for PBXNativeTarget "LXPianoMusicDemo" */;
+			buildPhases = (
+				244B49C521B6510B008AC4A8 /* Sources */,
+				244B49C621B6510B008AC4A8 /* Frameworks */,
+				244B49C721B6510B008AC4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXPianoMusicDemo;
+			productName = LXPianoMusicDemo;
+			productReference = 244B49C921B6510B008AC4A8 /* LXPianoMusicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244B49E021B6510E008AC4A8 /* LXPianoMusicDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244B49F821B6510E008AC4A8 /* Build configuration list for PBXNativeTarget "LXPianoMusicDemoTests" */;
+			buildPhases = (
+				244B49DD21B6510E008AC4A8 /* Sources */,
+				244B49DE21B6510E008AC4A8 /* Frameworks */,
+				244B49DF21B6510E008AC4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244B49E321B6510E008AC4A8 /* PBXTargetDependency */,
+			);
+			name = LXPianoMusicDemoTests;
+			productName = LXPianoMusicDemoTests;
+			productReference = 244B49E121B6510E008AC4A8 /* LXPianoMusicDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		244B49EB21B6510E008AC4A8 /* LXPianoMusicDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244B49FB21B6510E008AC4A8 /* Build configuration list for PBXNativeTarget "LXPianoMusicDemoUITests" */;
+			buildPhases = (
+				244B49E821B6510E008AC4A8 /* Sources */,
+				244B49E921B6510E008AC4A8 /* Frameworks */,
+				244B49EA21B6510E008AC4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244B49EE21B6510E008AC4A8 /* PBXTargetDependency */,
+			);
+			name = LXPianoMusicDemoUITests;
+			productName = LXPianoMusicDemoUITests;
+			productReference = 244B49EC21B6510E008AC4A8 /* LXPianoMusicDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244B49C121B6510B008AC4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "https://github.com/nick8brown";
+				TargetAttributes = {
+					244B49C821B6510B008AC4A8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					244B49E021B6510E008AC4A8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 244B49C821B6510B008AC4A8;
+					};
+					244B49EB21B6510E008AC4A8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 244B49C821B6510B008AC4A8;
+					};
+				};
+			};
+			buildConfigurationList = 244B49C421B6510B008AC4A8 /* Build configuration list for PBXProject "LXPianoMusicDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244B49C021B6510B008AC4A8;
+			productRefGroup = 244B49CA21B6510B008AC4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244B49C821B6510B008AC4A8 /* LXPianoMusicDemo */,
+				244B49E021B6510E008AC4A8 /* LXPianoMusicDemoTests */,
+				244B49EB21B6510E008AC4A8 /* LXPianoMusicDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244B49C721B6510B008AC4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244B4A2E21B651AA008AC4A8 /* 13.mp3 in Resources */,
+				244B4A2121B651AA008AC4A8 /* 21.mp3 in Resources */,
+				244B4A1F21B651AA008AC4A8 /* 22.mp3 in Resources */,
+				244B4A1E21B651AA008AC4A8 /* 3.mp3 in Resources */,
+				244B4A1B21B651AA008AC4A8 /* 5.mp3 in Resources */,
+				244B4A2221B651AA008AC4A8 /* 20.mp3 in Resources */,
+				244B4A2D21B651AA008AC4A8 /* 12.mp3 in Resources */,
+				244B4A2C21B651AA008AC4A8 /* 10.mp3 in Resources */,
+				244B4A2321B651AA008AC4A8 /* 24.mp3 in Resources */,
+				244B49D921B6510E008AC4A8 /* LaunchScreen.storyboard in Resources */,
+				244B4A2921B651AA008AC4A8 /* 14.mp3 in Resources */,
+				244B4A2B21B651AA008AC4A8 /* 11.mp3 in Resources */,
+				244B4A3021B651AA008AC4A8 /* 9.mp3 in Resources */,
+				244B4A2521B651AA008AC4A8 /* 19.mp3 in Resources */,
+				244B49D621B6510E008AC4A8 /* Assets.xcassets in Resources */,
+				244B4A1821B651AA008AC4A8 /* 7.mp3 in Resources */,
+				244B4A1C21B651AA008AC4A8 /* 1.mp3 in Resources */,
+				244B4A1A21B651AA008AC4A8 /* 4.mp3 in Resources */,
+				244B4A1D21B651AA008AC4A8 /* 2.mp3 in Resources */,
+				244B4A2A21B651AA008AC4A8 /* 15.mp3 in Resources */,
+				244B4A2621B651AA008AC4A8 /* 25.mp3 in Resources */,
+				244B4A2021B651AA008AC4A8 /* 23.mp3 in Resources */,
+				244B4A2821B651AA008AC4A8 /* 16.mp3 in Resources */,
+				244B4A2721B651AA008AC4A8 /* 17.mp3 in Resources */,
+				244B4A2421B651AA008AC4A8 /* 18.mp3 in Resources */,
+				244B4A2F21B651AA008AC4A8 /* 8.mp3 in Resources */,
+				244B49D421B6510C008AC4A8 /* Main.storyboard in Resources */,
+				244B4A1921B651AA008AC4A8 /* 6.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244B49DF21B6510E008AC4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244B49EA21B6510E008AC4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244B49C521B6510B008AC4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244B49D121B6510C008AC4A8 /* ViewController.m in Sources */,
+				244B49DC21B6510E008AC4A8 /* main.m in Sources */,
+				244B49CE21B6510C008AC4A8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244B49DD21B6510E008AC4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244B49E621B6510E008AC4A8 /* LXPianoMusicDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244B49E821B6510E008AC4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244B49F121B6510E008AC4A8 /* LXPianoMusicDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244B49E321B6510E008AC4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244B49C821B6510B008AC4A8 /* LXPianoMusicDemo */;
+			targetProxy = 244B49E221B6510E008AC4A8 /* PBXContainerItemProxy */;
+		};
+		244B49EE21B6510E008AC4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244B49C821B6510B008AC4A8 /* LXPianoMusicDemo */;
+			targetProxy = 244B49ED21B6510E008AC4A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244B49D221B6510C008AC4A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244B49D321B6510C008AC4A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		244B49D721B6510E008AC4A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244B49D821B6510E008AC4A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244B49F321B6510E008AC4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		244B49F421B6510E008AC4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244B49F621B6510E008AC4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXPianoMusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXPianoMusicDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244B49F721B6510E008AC4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXPianoMusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXPianoMusicDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		244B49F921B6510E008AC4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXPianoMusicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXPianoMusicDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXPianoMusicDemo.app/LXPianoMusicDemo";
+			};
+			name = Debug;
+		};
+		244B49FA21B6510E008AC4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXPianoMusicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXPianoMusicDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXPianoMusicDemo.app/LXPianoMusicDemo";
+			};
+			name = Release;
+		};
+		244B49FC21B6510E008AC4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXPianoMusicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXPianoMusicDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXPianoMusicDemo;
+			};
+			name = Debug;
+		};
+		244B49FD21B6510E008AC4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXPianoMusicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-nick8brown.LXPianoMusicDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXPianoMusicDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244B49C421B6510B008AC4A8 /* Build configuration list for PBXProject "LXPianoMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244B49F321B6510E008AC4A8 /* Debug */,
+				244B49F421B6510E008AC4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244B49F521B6510E008AC4A8 /* Build configuration list for PBXNativeTarget "LXPianoMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244B49F621B6510E008AC4A8 /* Debug */,
+				244B49F721B6510E008AC4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244B49F821B6510E008AC4A8 /* Build configuration list for PBXNativeTarget "LXPianoMusicDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244B49F921B6510E008AC4A8 /* Debug */,
+				244B49FA21B6510E008AC4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244B49FB21B6510E008AC4A8 /* Build configuration list for PBXNativeTarget "LXPianoMusicDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244B49FC21B6510E008AC4A8 /* Debug */,
+				244B49FD21B6510E008AC4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244B49C121B6510B008AC4A8 /* Project object */;
+}
